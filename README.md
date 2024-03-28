@@ -14,19 +14,17 @@ Este repositorio contiene el backend de la aplicación, diseñado para proporcio
     composer install
     ```
 
-3. Copia el archivo `.env.example` y renómbralo a `.env`. Luego, configura tus variables de entorno según sea necesario, especialmente para la conexión a la base de datos.
-
-4. Genera una clave de aplicación única utilizando el comando:
+3.. Genera una clave de aplicación única utilizando el comando:
     ```sh
     php artisan key:generate
     ```
 
-5. Ejecuta las migraciones de la base de datos para crear las tablas necesarias:
+4. Ejecuta las migraciones de la base de datos para crear las tablas necesarias:
     ```sh
     php artisan migrate
     ```
 
-6. Es esencial que ejecutes este comando para generar un usuario superadmin, que utilizarás para ingresar a la página por primera vez, luego dentro podrás crear otros usuarios superadmin:
+5. Es esencial que ejecutes este comando para generar un usuario superadmin, que utilizarás para ingresar a la página por primera vez, luego dentro podrás crear otros usuarios superadmin:
     ```sh
     php artisan db:seed
     ```
