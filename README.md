@@ -4,7 +4,7 @@ Este repositorio contiene el backend de la aplicación, diseñado para proporcio
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local:
+1. Clona este repositorio en tu pc:
     ```sh
     git clone https://github.com/EliasB7/nocnoc-test.git
     ```
