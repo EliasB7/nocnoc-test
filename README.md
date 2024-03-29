@@ -14,7 +14,7 @@ Este repositorio contiene el backend de la aplicación, diseñado para proporcio
     composer install
     ```
 
-3.. Genera una clave de aplicación única utilizando el comando:
+3. Genera una clave de aplicación única utilizando el comando:
     ```sh
     php artisan key:generate
     ```
